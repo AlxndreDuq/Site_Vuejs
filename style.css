@@ -1,0 +1,90 @@
+.regrouper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+body{
+    background-color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #00ADB5;
+
+}
+
+.Produit{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-produit img{
+    width: 300px;
+    height: 300px;
+}
+
+.details-produit{
+    width: 50%;
+    color: #222831;
+}
+
+.barre{
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 3px;
+    margin: 20px;
+    background-color: #393E46;
+}
+
+.acheter{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    border-color: #00ADB5;
+    background: none;
+    outline: none;
+    background-color: #00ADB5;
+    padding: 15px;
+    color: #EEEEEE;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.acheter:hover{
+    color: #00ADB5;
+    background-color: #EEEEEE;
+    border-color: #00ADB5;
+    transition: 0.3s;
+}
+
+.variant{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.stock{
+    color: #29a929;
+}
+
+.presque-indisponible{
+    color: #dea423;
+}
+
+.indisponible{
+    color: #cc1d1d;
+}
+
+.prix{
+    color: #be0606;
+    margin-top: 20px;
+}
