@@ -88,7 +88,7 @@ var product = new Vue ({
                 //infos-produit
                 nom: 'Chaussures',
 
-                image: 'images/img1.png',
+                image: 'images/img.png',
 
                 alt: 'Image de chaussures',
 
@@ -128,7 +128,7 @@ var product = new Vue ({
                         variantQuantity: 50
                     },
                     {
-                        variantImage: 'images/img4.jpg',
+                        variantImage: 'images/img1.png',
                         variantColor: 'brown',
                         variantQuantity: 0
                     }
@@ -154,7 +154,7 @@ var product = new Vue ({
                         variantQuantity: 17
                     },
                     {
-                        variantImage: 'images/img4.jpg',
+                        variantImage: 'images/img2.jpg',
                         variantColor: 'black',
                         variantQuantity: 3
                     }
@@ -180,7 +180,7 @@ var product = new Vue ({
                         variantQuantity: 23
                     },
                     {
-                        variantImage: 'images/img4.jpg',
+                        variantImage: 'images/img3.jpg',
                         variantColor: 'brown',
                         variantQuantity: 12
                     },
